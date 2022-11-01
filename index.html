@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="tabFunction.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'medellin')">
+              Medellín
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'bogota')">
+              Bogotá
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'cartagena')">
+              Cartagena
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'bucaramanga')">
+              Bucaramanga
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'manizales')">
+              Manizales
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'barranquilla')">
+              Barranquilla
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <button class="tablinks" onclick="openCity(event, 'pereira')">
+              Pereira
+            </button>
+          </div>
+        </div>
+        <div class="main-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="main-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        <div id="medellin" class="tabcontent">
+          <div class="swiper cardSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/123/300/300" alt="perrito" />
+                    <h1>Salud y belleza</h1>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/124/300/300" alt="perrito" />
+                    <h1>Salud y belleza</h1>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/125/300/300" alt="perrito" />
+                    <h1>Salud y belleza</h1>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/126/300/300" alt="perrito" />
+                    <h1>Salud y belleza</h1>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="swiper iconSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+              <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+            </div>
+            <div class="icon-next swiper-button-next">
+              <svg
+                width="33"
+                height="38"
+                viewBox="0 0 33 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+                  fill="#DD4EF0"
+                />
+              </svg>
+            </div>
+            <div class="icon-prev swiper-button-prev">
+              <svg
+                width="33"
+                height="38"
+                viewBox="0 0 33 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+                  fill="#DD4EF0"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div id="bogota" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/151/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/152/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/153/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/154/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+        <div id="cartagena" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/182/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/183/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/184/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/185/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+        <div id="bucaramanga" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/191/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/192/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/193/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/194/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+        <div id="manizales" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/201/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/202/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/203/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/204/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+        <div id="barranquilla" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/210/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/211/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/212/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/213/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+        <div id="pereira" class="tabcontent">
+        <div class="swiper cardSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/221/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/222/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/223/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://picsum.photos/id/225/300/300" alt="perrito" />
+                <h1>Salud y belleza</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper iconSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a class="circule_icon">Slide 1</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 2</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 3</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 4</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 5</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 6</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 7</a></div>
+          <div class="swiper-slide"><a class="circule_icon">Slide 8</a></div>
+        </div>
+        <div class="icon-next swiper-button-next">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 13.8038C34 16.1133 34 21.8868 30 24.1962L9 36.3205C5 38.6299 -1.86836e-06 35.7432 -1.66647e-06 31.1244L-6.06524e-07 6.87564C-4.04629e-07 2.25684 5 -0.629911 9 1.67949L30 13.8038Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+        <div class="icon-prev swiper-button-prev">
+          <svg
+            width="33"
+            height="38"
+            viewBox="0 0 33 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 24.1962C-1 21.8867 -1 16.1132 3 13.8038L24 1.67949C28 -0.629911 33 2.25684 33 6.87564L33 31.1244C33 35.7432 28 38.6299 24 36.3205L3 24.1962Z"
+              fill="#DD4EF0"
+            />
+          </svg>
+        </div>
+      </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
