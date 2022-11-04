@@ -1,11 +1,12 @@
 function activeFirstButton() {
-  if (document.getElementById('medellin').style.display == "") {
+  if (document.getElementById('medellin').style.display == '') {
     document.getElementById('medellin').style.display = 'block';
     document.getElementsByClassName('tablinks')[0].style.color = '#eb0f70';
-    document.getElementsByClassName('tablinks')[0].style.borderBottom = '4px solid #eb0f70';
+    document.getElementsByClassName('tablinks')[0].style.borderBottom =
+      '4px solid #eb0f70';
   } else {
-    document.getElementsByClassName('tablinks')[0].style.color = "";
-    document.getElementsByClassName('tablinks')[0].style.borderBottom = "";
+    document.getElementsByClassName('tablinks')[0].style.color = '';
+    document.getElementsByClassName('tablinks')[0].style.borderBottom = '';
   }
 }
 
@@ -22,15 +23,13 @@ function openCity(evt, cityName) {
     tablinks[i].className = tablinks[i].className.replace(' active', '');
   }
   document.getElementById(tab).style.display = 'block';
-  evt.currentTarget.className += ' active';
-  
+  // evt.currentTarget.className += ' active';
+
   // activeFirstButton();
 }
 
-
-// Set new or modify existing parameter value. 
+// Set new or modify existing parameter value.
 // Replace current querystring with the new one.
-
 
 // let queryParams = new URLSearchParams(window.location.search);
 
