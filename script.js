@@ -65,5 +65,4 @@ const iconSwiper = new Swiper('.iconSwiper', {
   },
 });
 
-activeFirstButton();
-
+openCity()

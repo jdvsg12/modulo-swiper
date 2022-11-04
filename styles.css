@@ -76,18 +76,19 @@ h1 {
   object-fit: cover;
 }
 
-.swiper button {
+.swiper a {
   font-family: system-ui, sans-serif;
   font-weight: bold;
   color: #404040;
   all: unset;
   padding: 1rem;
+  cursor: pointer;
 }
 
-.swiper button:hover {
+.swiper a:hover {
   color: #eb0f70;
 }
-.swiper button.active {
+.swiper a.active {
   color: #eb0f70;
   border-bottom: 4px solid #eb0f70;
 }
